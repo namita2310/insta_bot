@@ -38,11 +38,20 @@ sleep(5)
 like=driver.find_element_by_xpath("/html/body/div[4]/div[2]/div/article/div[2]/section[1]/span[1]")
 like.click()
 sleep(5)
+next_butt=driver.find_element_by_xpath("/html/body/div[4]/div[1]/div/div/a")
+next_butt.click()
+sleep(3)
+like=driver.find_element_by_xpath("/html/body/div[4]/div[2]/div/article/div[2]/section[1]/span[1]")
+like.click()
+sleep(3)
 
-for i in range(0,10):
-    next_butt=driver.find_element_by_xpath("/html/body/div[4]/div[1]/div/div/a")
+
+
+
+for i in range(0,100):
+    next_butt=driver.find_element_by_xpath("/html/body/div[4]/div[1]/div/div/a[2]")
     next_butt.click()
-    sleep(5)
+    sleep(3)
     like=driver.find_element_by_xpath("/html/body/div[4]/div[2]/div/article/div[2]/section[1]/span[1]")
     like.click()
-    sleep(5)
+    sleep(3)
