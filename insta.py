@@ -18,9 +18,9 @@ sleep(3)
 
 
 username = driver.find_element_by_xpath('/html/body/div[1]/section/main/div/article/div/div[1]/div/form/div[2]/div/label/input')
-username.send_keys('codeitout')
+username.send_keys('pictures_do_speak')
 password = driver.find_element_by_xpath('/html/body/div[1]/section/main/div/article/div/div[1]/div/form/div[3]/div/label/input')
-password.send_keys('Ganesh@21')
+password.send_keys('kikalina')
 
 button_login = driver.find_element_by_xpath('/html/body/div[1]/section/main/div/article/div/div[1]/div/form/div[4]')
 button_login.click()
